@@ -15,6 +15,8 @@
 		A441C9651D3D21AA00DF4D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A441C9631D3D21AA00DF4D0D /* LaunchScreen.storyboard */; };
 		A441C9701D3D21AA00DF4D0D /* locationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A441C96F1D3D21AA00DF4D0D /* locationTests.m */; };
 		A441C97B1D3D21AA00DF4D0D /* locationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A441C97A1D3D21AA00DF4D0D /* locationUITests.m */; };
+		A4FFE7611D52C1570037D6EE /* sf-pier-39-south.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A4FFE75F1D52C1570037D6EE /* sf-pier-39-south.gpx */; };
+		A4FFE7621D52C1570037D6EE /* _DEFAULT.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A4FFE7601D52C1570037D6EE /* _DEFAULT.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A441C9761D3D21AA00DF4D0D /* locationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A441C97A1D3D21AA00DF4D0D /* locationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = locationUITests.m; sourceTree = "<group>"; };
 		A441C97C1D3D21AA00DF4D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FFE75F1D52C1570037D6EE /* sf-pier-39-south.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "sf-pier-39-south.gpx"; path = "location/sf-pier-39-south.gpx"; sourceTree = "<group>"; };
+		A4FFE7601D52C1570037D6EE /* _DEFAULT.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = _DEFAULT.gpx; path = location/_DEFAULT.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		A441C9491D3D21AA00DF4D0D = {
 			isa = PBXGroup;
 			children = (
+				A4FFE75F1D52C1570037D6EE /* sf-pier-39-south.gpx */,
+				A4FFE7601D52C1570037D6EE /* _DEFAULT.gpx */,
 				A441C9541D3D21AA00DF4D0D /* location */,
 				A441C96E1D3D21AA00DF4D0D /* locationTests */,
 				A441C9791D3D21AA00DF4D0D /* locationUITests */,
@@ -246,6 +252,8 @@
 				A441C9651D3D21AA00DF4D0D /* LaunchScreen.storyboard in Resources */,
 				A441C9621D3D21AA00DF4D0D /* Assets.xcassets in Resources */,
 				A441C9601D3D21AA00DF4D0D /* Main.storyboard in Resources */,
+				A4FFE7611D52C1570037D6EE /* sf-pier-39-south.gpx in Resources */,
+				A4FFE7621D52C1570037D6EE /* _DEFAULT.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +506,7 @@
 				A441C9811D3D21AA00DF4D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A441C9821D3D21AA00DF4D0D /* Build configuration list for PBXNativeTarget "locationTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +515,7 @@
 				A441C9841D3D21AA00DF4D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A441C9851D3D21AA00DF4D0D /* Build configuration list for PBXNativeTarget "locationUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +524,7 @@
 				A441C9871D3D21AA00DF4D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
